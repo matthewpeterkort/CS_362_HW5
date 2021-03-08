@@ -1,13 +1,12 @@
 import unittest
 import LeapYear
 i=0
-result=LeapYear.LeapYear()
+result=LeapYear.leapyear()
 
 
 class TestCase(unittest.TestCase):
     def test1(self):
-        self.assertEqual(result,"True")
- 
+        self.assertEqual(result,True)
 
 
 
