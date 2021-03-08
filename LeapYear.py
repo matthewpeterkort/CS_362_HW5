@@ -7,4 +7,9 @@ def leapyear():
             print(val,"is a leap year")
             year=True
             return year
+        elif(val%400==0):
+            print(val,"is  a leap year")
+            year=True
+            return year
+    
     

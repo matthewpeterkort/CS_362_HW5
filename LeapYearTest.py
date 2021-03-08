@@ -7,6 +7,9 @@ result=LeapYear.leapyear()
 class TestCase(unittest.TestCase):
     def test1(self):
         self.assertEqual(result,True)
+    def test2(self):
+        self.assertEqual(result,False)
+
 
 
 
