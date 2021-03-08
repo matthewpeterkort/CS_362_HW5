@@ -13,6 +13,10 @@ class TeastCase(unittest.TestCase):
         self.assertEqual(result[5],"Buzz")
     def test4(self):
         self.assertTrue(result,1)
+    def test5(self):
+        self.assertEqual(result[6],"Fizz")
+    def test6(self):
+        self.assertEqual(result[7],7)
 
 
             

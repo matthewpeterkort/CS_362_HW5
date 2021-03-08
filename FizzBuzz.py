@@ -10,6 +10,10 @@ def FizzBuzz():
             j[i]="Buzz"
             if(i==100):
                 return j
+	elif (i%3==0):
+	    print("Fizz")
+            j[i]="Fizz"
+
       
         else:
             print(i)
