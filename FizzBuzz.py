@@ -5,6 +5,15 @@ def FizzBuzz():
         if(i%5==0 and i%3==0):
             print("FizzBuzz")
             j[i]="FizzBuzz"
+	elif (i%5==0):
+            print("Buzz")
+            j[i]="Buzz"
+            if(i==100):
+                return j
+      
+        else:
+            print(i)
+            j[i]=i
             
         i=i+1
   
