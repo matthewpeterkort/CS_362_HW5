@@ -11,5 +11,7 @@ def leapyear():
             print(val,"is  a leap year")
             year=True
             return year
-    
+        else:
+            print(val,"is not a leap year")
+            return year
     
